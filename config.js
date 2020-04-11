@@ -1,4 +1,5 @@
 const DIFFICULTY = 3;
-const MINE_RATE = 2 * 1000; // 1s
+const MINE_RATE = 2 * 1000; // 2s
+const INITIAL_BALANCE = 1000; // MIL PILA
 
-module.exports = { DIFFICULTY, MINE_RATE };
+module.exports = { DIFFICULTY, MINE_RATE, INITIAL_BALANCE };
